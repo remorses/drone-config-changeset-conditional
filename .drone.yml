@@ -9,5 +9,6 @@ steps:
       username: xmorse
       tags: 
       - latest
+      - 0.0.0
       password:
         from_secret: docker_password
