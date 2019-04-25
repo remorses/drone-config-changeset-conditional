@@ -3,7 +3,7 @@ name: default
 
 steps:
   - name: build
-    image: drone-plugins/docker
+    image: plugins/docker
     settings:
       repo: xmorse/drone-changeset
       username: xmorse
