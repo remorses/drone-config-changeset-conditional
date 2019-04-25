@@ -1,0 +1,13 @@
+kind: pipeline
+name: default
+
+steps:
+  - name: build
+    image: drone-plugins/docker
+    settings:
+      repo: xmorse/drone-changeset
+      username: xmorse
+      tags: 
+      - latest
+      password:
+        from_secret: docker_password
